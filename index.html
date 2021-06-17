@@ -7,13 +7,16 @@
     <title>🏆Adam's Personal Site</title>
 </head>
 <body>
-    <img src="images/adam.JPG" alt="Adam Profile Picture">
-    <h1>Adam Jamilkhair</h1>
-    <p><em><a href="https://commons.wikimedia.org/wiki/File:Okayama_University_of_Science.jpg">Okayama University Of Science </a><strong>Student</strong></em></p>
-    <p>I study Major in Intelligent Mechanical Engineering </p>
+    <table>
+        <tr>
+            <td><img src="images/adam.JPG" alt="Adam Profile Picture"></td>
+            <td><h1>Adam Jamilkhair</h1>
+                <p><em><a href="https://commons.wikimedia.org/wiki/File:Okayama_University_of_Science.jpg">Okayama University Of Science </a><strong>Student</strong></em></p>
+                <p>I study Major in Intelligent Mechanical Engineering </p></td>
+        </tr>
+    </table> 
     <hr>
-    <h3><button onclick = "revealMessage()">Subject and research</button></h3>
-    <div id = "hiddenMessage" style="display:none">
+    <h3>Subject and Research</h3>
         <ul>
             <li>Robot Dynamic</li>
             <li>Control Theory</li>
@@ -21,19 +24,83 @@
     <h3><button onclick = "revealMessage2()">My Hobbies</button></h3>
     <div id = "hiddenMessage2" style="display:none">
         <ol>
-            <li>Table Tennis</li>
-            <li>Basket Ball</li>
-            <li>Playing Games</li>
+            <li>Table Tennis🏓</li>
+            <li>Football⚽</li>
+            <li>Playing games🎮</li>
         </ol> 
     </div>
-    <h3><button onclick = "revealMessage3()">My Contact Details</button></h3>
+    <h3><button onclick = "revealMessage3()">Contact ME</button></h3>
     <div id = "hiddenMessage3" style="display:none">
         <ul>
             <li>0139671260</li>
             <li>adamjamilkhair@gmail.com</li>
-        </ul>   
+        </ul>
+        <hr>
+        <form action="mailto:adamzzener@gamil.com" method="POST" enctype="text/plain">
+            <label for="">Your Names: </label>
+            <input type="text" name="your name">
+            <input type="submit" name=""><br>
+            <label for="">Your Email: </label>
+            <input type="email" name="your email">
+            <input type="submit" name=""><br>
+            <label for="">Your Message: </label><br>
+            <textarea name="your message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" name="">
+        </form>   
         <button id ="countDownButton" onclick = "countDown()">5</button> 
     </div>
+    <h3>Working Experience</h3>
+    <table cellspacing="10">
+        <thead>
+            <tr>
+                <th>Dates</th>
+                <th>Names</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>7/2019 ~ 12/2020</td>
+                <td>Store Controller at AJIS Japan</td>
+            </tr>
+            <tr>
+                <td>1/2021 ~ 2/2021</td>
+                <td>Casher at Daiso, Okayama</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Skills</h3>
+    <table cellspacing="10">
+        <tr>
+            <td>Autocad</td>
+            <td>⭐⭐⭐</td>
+            <td>HTML</td>
+            <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+           <td>Python</td>
+            <td>⭐⭐⭐</td>
+            <td>Microsoft Power Point</td>
+            <td>⭐⭐⭐</td>
+        </tr>
+       <tr>
+           <td>C</td>
+           <td>⭐⭐⭐</td>
+           <td>Microsoft Excel</td>
+           <td>⭐⭐⭐</td>
+       </tr>
+       <tr>
+           <td>C#</td>
+           <td>⭐⭐</td>
+           <td>Microsoft Word</td>
+           <td>⭐⭐⭐⭐</td>
+       </tr>
+       <tr>
+           <td>SQL</td>
+           <td>⭐</td>
+       </tr>
+
+    </table>
+
 
     <script src = index.js>
 
