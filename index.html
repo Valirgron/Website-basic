@@ -4,15 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>🏆Adam's Personal Site</title>
 </head>
 <body>
-    <h1>What Your Name...?????</h1>
-    <button onclick = "revealMessage()">Kalau nak tahu Click la saya!!!</button>
+    <img src="images/adam.JPG" alt="Adam Profile Picture">
+    <h1>Adam Jamilkhair</h1>
+    <p><em><a href="https://commons.wikimedia.org/wiki/File:Okayama_University_of_Science.jpg">Okayama University Of Science </a><strong>Student</strong></em></p>
+    <p>I study Major in Intelligent Mechanical Engineering </p>
+    <hr>
+    <h3><button onclick = "revealMessage()">Subject and research</button></h3>
     <div id = "hiddenMessage" style="display:none">
-        <p>FUCK YOU, SLEMME!!!!!</p>
-        <p>Sleme Njir</p>
-        <button id ="countDownButton" onclick = "countDown()">5</button>
+        <ul>
+            <li>Robot Dynamic</li>
+            <li>Control Theory</li>
+    </div>
+    <h3><button onclick = "revealMessage2()">My Hobbies</button></h3>
+    <div id = "hiddenMessage2" style="display:none">
+        <ol>
+            <li>Table Tennis</li>
+            <li>Basket Ball</li>
+            <li>Playing Games</li>
+        </ol> 
+    </div>
+    <h3><button onclick = "revealMessage3()">My Contact Details</button></h3>
+    <div id = "hiddenMessage3" style="display:none">
+        <ul>
+            <li>0139671260</li>
+            <li>adamjamilkhair@gmail.com</li>
+        </ul>   
+        <button id ="countDownButton" onclick = "countDown()">5</button> 
     </div>
 
     <script src = index.js>
