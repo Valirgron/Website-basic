@@ -1,0 +1,22 @@
+body{
+    background-color:teal;
+}
+body:hover{
+    background-color:lightblue;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+     border-width: 5px;
+    border-color: grey;
+    width: 50%;
+}
+h1{
+    color:darkslategray;
+}
+h3{
+    color:darkslateblue;
+}
+.picture{
+    border-radius: 100%;
+}
